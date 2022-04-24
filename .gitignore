@@ -1,0 +1,11 @@
+*
+
+!.gitignore
+!./alacritty/
+!./bspwm/
+!./neofetch/
+!./nvim/
+!./picom/
+!./polybar/
+!./rofi/
+!./sxhkd/
