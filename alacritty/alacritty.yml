@@ -1,0 +1,29 @@
+import:
+  - /home/brian/Downloads/alacritty-master/dracula.yml  
+
+window:
+  padding:
+    x: 5
+    y: 5
+  class:
+    instance: Alacritty 
+    general: Alacritty
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+background_opacity: 1
+
+cursor:
+  style:
+    shape: Underline
+    blinking: Always
+    blink-interval: 750
+
+font:
+  normal:
+    family: BlexMono Nerd Font
+
+key_bindings:
+  - { key: Return, mods: Shift, action: SpawnNewInstance }
