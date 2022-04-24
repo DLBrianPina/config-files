@@ -78,6 +78,9 @@ telescope.setup {
         ["?"] = actions.which_key,
       },
     },
+    file_ignore_patterns = {
+      "node_modules"
+    },
   },
   pickers = {
     -- Default configuration for builtin pickers goes here:
@@ -101,4 +104,5 @@ telescope.setup {
     -- }
     -- please take a look at the readme of the extension you want to configure
   },
+
 }

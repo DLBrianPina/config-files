@@ -34,6 +34,11 @@ project.setup({
 
 	---@usage list of lsp client names to ignore when using **lsp** detection. eg: { "efm", ... }
 	ignore_lsp = {},
+  
+  -- @usage ignore config files project
+  exclue_dirs = {
+    "/home/brian/.config"
+  },
 
 	---@type string
 	---@usage path to store the project history for use in telescope
