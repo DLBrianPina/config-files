@@ -82,4 +82,4 @@ keymap("n", "<C-f>", ":Format<cr>", opts)
 
 
 -- Misc
-keymap("n", "<C-w>", ":bd<cr>", opts)
+keymap("n", "<C-w>", ":Bdelete<cr>", opts)

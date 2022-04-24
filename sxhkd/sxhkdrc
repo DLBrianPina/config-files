@@ -8,7 +8,7 @@ super + t
 
 # program launcher
 super + @space
-  rofi -show drun
+  bash /home/brian/.config/polybar/cuts/scripts/launcher.sh
 
 super + b
   brave-browser 
